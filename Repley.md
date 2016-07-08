@@ -11,3 +11,6 @@ Connection string should be in the format
 ```javascript
 {"user":"{username}", "password":"{password}","database":"{database name}","server":"{server name or IP address}"}
 ```
+
+To add a report go to /edit
+Enter a name and queries
