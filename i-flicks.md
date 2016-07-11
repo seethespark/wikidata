@@ -14,7 +14,6 @@ It is intended for small teams or individuals who want a stand alone video prese
 > You should be able to get i-flicks up and running with no programming experience but you will find a basic understanding of Javascript and Node.js useful.
 
 ### Ubuntu Linux ###
-
 Install Node.js, NPM ImageMagick, Git and FLVMeta.
 
 ```
@@ -35,7 +34,8 @@ sudo apt-get install ffmpeg
 ```
 > Note:  because of licencing restrictions, you can get better sound quality and browser compatibility by compiling FFmpeg from source. i-flicks works with the standard download.
 
-### Windows ### The default settings and latest installs of the following packages should all work.
+### Windows ###
+The default settings and latest installs of the following packages should all work.
 
 ```
 Download and install [Node.js](https://nodejs.org/)
@@ -45,11 +45,13 @@ Download and install [FLVMeta](http://www.flvmeta.com/)
 Download and install [FFMpeg](https://www.ffmpeg.org/download.html)
 ```
 
-### For all operating systems ### Create a folder for your new project on your computer and move to that folder.
+### For all operating systems ###
+Create a folder for your new project on your computer and move to that folder.
 run:
-
+```
 npm install i-flicks
-
+```
+or
 ```
 git clone https://github.com/seethespark/i-flicks.git  
 cd i-flicks  
