@@ -4,8 +4,8 @@ Open source video sharing website and application.
 
 ## Overview ##
 
-This software is incomplete. It works but still needs plenty of work.<br />
-i-flickls pulls together several components to give a full, open source video sharing application.
+This software is incomplete. It works but still needs plenty of work.
+i-flicks pulls together several components to give a full, open source video sharing application.
 
 It is intended for small teams or individuals who want a stand alone video presentation system. It will work with a few hundred or low thousands of videos and a handful of concurrent viewers.
 
