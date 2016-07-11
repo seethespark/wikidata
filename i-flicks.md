@@ -44,7 +44,7 @@ Download and install [GraphicsMagick ](http://www.graphicsmagick.org/download.ht
 Download and install [FLVMeta](http://www.flvmeta.com/)
 Download and install [FFMpeg](https://www.ffmpeg.org/download.html)
 ```
-##### For all operating systems ##### Create a folder for your new project on your computer and move to that folder.<br />
+### For all operating systems ### Create a folder for your new project on your computer and move to that folder.<br />
 run:
 
 <s>npm install i-flicks</s>
