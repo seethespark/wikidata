@@ -1,0 +1,1 @@
+If the last sale time was over 3 minutes ago it defaults to 2 minutes ago. This prevents the same group of sales showing up over and over if the feed in fails.
