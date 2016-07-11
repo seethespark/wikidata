@@ -9,5 +9,5 @@ RG25 3PA
 Company number:
 8508812
 
-Vat registration number:
+VAT registration number:
 160 8265 13
