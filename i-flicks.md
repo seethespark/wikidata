@@ -1,10 +1,7 @@
 ## i-flicks ##
 
 Video sharing website and application.
-
-[[i-flicks:error codes|Error codes]]
 -----
-
 ## Overview ##
 
 This software is incomplete. It works but still needs plenty of work.<br />
@@ -21,40 +18,29 @@ It is intended for small teams or individuals who want a stand alone video prese
 Install Node.js, NPM ImageMagick, Git and FLVMeta.
 
 <pre>curl -sL https://deb.nodesource.com/setup | sudo bash -
-
 or
-
 curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
-
 sudo apt-get install nodejs -y
-
 sudo apt-get install git -y
-
 sudo apt-get install graphicsmagick -y
-
-sudo apt-get install flvmeta</pre>
+sudo apt-get install flvmeta
+</pre>
 Install FFmpeg
-
 <pre>sudo add-apt-repository ppa:mc3man/trusty-media
-
 sudo apt-get update
-
 sudo apt-get dist-upgrade  ?? not really required ??
-
-sudo apt-get install ffmpeg</pre>
+sudo apt-get install ffmpeg
+</pre>
 <blockquote>'''Note:''' because of licencing restrictions, you can get better sound quality and browser compatibility by compiling FFmpeg from source. i-flicks works with the standard download.
 </blockquote>
 '''Windows''' The default settings and latest installs of the following packages should all work.
 
 <pre>Download and install [Node.js](https://nodejs.org/)
-
 Download and install [Git](https://git-scm.com/downloads)
-
 Download and install [GraphicsMagick ](http://www.graphicsmagick.org/download.html)
-
 Download and install [FLVMeta](http://www.flvmeta.com/)
-
-Download and install [FFMpeg](https://www.ffmpeg.org/download.html)</pre>
+Download and install [FFMpeg](https://www.ffmpeg.org/download.html)
+</pre>
 '''For all operating systems''' Create a folder for your new project on your computer and move to that folder.<br />
 run:
 
