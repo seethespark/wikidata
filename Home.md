@@ -1,2 +1,3 @@
 [[About]]
 [[Repley]]
+[[Content manager]]
