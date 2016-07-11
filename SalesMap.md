@@ -38,6 +38,31 @@ Technical notes
 
 [error codes]
 
+Licencing
+---------
+
+This software is provided by See The Spark Ltd and it retains the copyright. Any modification or copying must first be agreed in writing from See The Spark. The licence allows for internal use on a single site. See The Spark reserve the right to revoke this licence at any time.
+
+jQuery is licenced for use and distribution under the MIT licence.
+
+Test images are surced from <http://pixabay.com/>
+
+The detailed map is licensed under the Creative Commons Attribution-Share Alike 3.0 license. You are free to use and change it but it requires to remain under the same or similar license.
+
+<http://commons.wikimedia.org/wiki/File:United_Kingdom_map.png>
+
+The outline and physical maps are licenced under the GNU licence and provided by Wikipedia.
+
+<http://en.wikipedia.org/wiki/File:United_Kingdom_location_map.svg>
+
+Google maps are licenced for testing only on the demo version. If access is restricted then Google require a separate licence..
+
+The mainland postcode information is provided by the ONS under the Open Government Licence. Northern Ireland data is from the Northern Ireland Statistics and Research Agency in 2008. <http://www.doogal.co.uk/PostcodeFAQ.php>
+
+Some postcode amendments were taken from <http://www.postcode-info.co.uk/counties.html> and <http://www.ukpostcodes.org/postcode-database-api-downloads>
+
+No responsibility is taken for the correctness of this information.
+
   [admin console]: Sales_Map:admin_console "wikilink"
   [setting up]: Sales_Map:setting_up "wikilink"
   [1]: Sales_Map:setting_up_server "wikilink"
