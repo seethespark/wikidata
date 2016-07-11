@@ -17,42 +17,46 @@ It is intended for small teams or individuals who want a stand alone video prese
 
 Install Node.js, NPM ImageMagick, Git and FLVMeta.
 
-<pre>curl -sL https://deb.nodesource.com/setup | sudo bash -
+```
+curl -sL https://deb.nodesource.com/setup | sudo bash -
 or
 curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
 sudo apt-get install nodejs -y
 sudo apt-get install git -y
 sudo apt-get install graphicsmagick -y
 sudo apt-get install flvmeta
-</pre>
+```
 Install FFmpeg
-` sudo add-apt-repository ppa:mc3man/trusty-media
+```
+sudo add-apt-repository ppa:mc3man/trusty-media
 sudo apt-get update
 sudo apt-get dist-upgrade  ?? not really required ??
 sudo apt-get install ffmpeg
-</pre>
+```
 > Note:  because of licencing restrictions, you can get better sound quality and browser compatibility by compiling FFmpeg from source. i-flicks works with the standard download.
 
 ##### Windows ##### The default settings and latest installs of the following packages should all work.
 
-<pre>Download and install [Node.js](https://nodejs.org/)
+```
+Download and install [Node.js](https://nodejs.org/)
 Download and install [Git](https://git-scm.com/downloads)
 Download and install [GraphicsMagick ](http://www.graphicsmagick.org/download.html)
 Download and install [FLVMeta](http://www.flvmeta.com/)
 Download and install [FFMpeg](https://www.ffmpeg.org/download.html)
-</pre>
+```
 ##### For all operating systems ##### Create a folder for your new project on your computer and move to that folder.<br />
 run:
 
 <s>npm install i-flicks</s>
 
-<pre>git clone https://github.com/seethespark/i-flicks.git  
+```
+git clone https://github.com/seethespark/i-flicks.git  
 cd i-flicks  
 npm install
 cd views  
 mv runOnce.done.hbs runOnce.hbs *OR* rename runOnce.done.hbs runOnce.hbs  
 cd ..
-    </pre>
+```
 Create a node application, create a “settings” object with paths to the software installed above and require i-flicks….<br />
 For example, add this to a file called app.js
 
