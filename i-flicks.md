@@ -11,8 +11,8 @@ It is intended for small teams or individuals who want a stand alone video prese
 
 ## Getting started ##
 
-<blockquote>You should be able to get i-flicks up and running with no programming experience but you will find a basic understanding of Javascript and Node.js useful.
-</blockquote>
+> You should be able to get i-flicks up and running with no programming experience but you will find a basic understanding of Javascript and Node.js useful.
+
 ##### Ubuntu Linux #####
 
 Install Node.js, NPM ImageMagick, Git and FLVMeta.
@@ -26,14 +26,14 @@ sudo apt-get install graphicsmagick -y
 sudo apt-get install flvmeta
 </pre>
 Install FFmpeg
-<pre>sudo add-apt-repository ppa:mc3man/trusty-media
+` sudo add-apt-repository ppa:mc3man/trusty-media
 sudo apt-get update
 sudo apt-get dist-upgrade  ?? not really required ??
 sudo apt-get install ffmpeg
 </pre>
-<blockquote>##### Note: ##### because of licencing restrictions, you can get better sound quality and browser compatibility by compiling FFmpeg from source. i-flicks works with the standard download.
-</blockquote>
-##### Windows #####The default settings and latest installs of the following packages should all work.
+> Note:  because of licencing restrictions, you can get better sound quality and browser compatibility by compiling FFmpeg from source. i-flicks works with the standard download.
+
+##### Windows ##### The default settings and latest installs of the following packages should all work.
 
 <pre>Download and install [Node.js](https://nodejs.org/)
 Download and install [Git](https://git-scm.com/downloads)
@@ -56,7 +56,8 @@ cd ..
 Create a node application, create a “settings” object with paths to the software installed above and require i-flicks….<br />
 For example, add this to a file called app.js
 
-````var settings = {
+```javascript
+var settings = {
     ffmpegPath: '/usr/bin/ffmpeg',
     ffprobePath:  '/usr/bin/ffprobe',
     flvMetaPath:  '/usr/bin/flvmeta',
@@ -72,7 +73,7 @@ server.listen(3000, function() {
     var addr = this.address();
     console.log('i-flicks server is listening on %s:%d', addr.address, addr.port);
 });
-````
+```
 run:
 node app.js
 
