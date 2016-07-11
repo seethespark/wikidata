@@ -1,4 +1,4 @@
-== Adding a new page==
+## Adding a new page ##
 Make sure the page has <article> tags or elements with the editable class.  Add content with properties named the same as the containing element's ID.  Wrap the editable property in ''triple'' braces like this: {{{content.myTextArea}}}
 
 Navigate to the path /<pagePath>/content
@@ -7,7 +7,7 @@ Make a change
 
 Save!
 
-== Editing page content ==
+## Editing page content ##
 You must be in the contentEditor group.
 
 You can only edit content of pages which the side developers have allowed.
