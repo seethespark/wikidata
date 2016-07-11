@@ -1,6 +1,6 @@
 ## i-flicks ##
 
-Video sharing website and application.
+Open source video sharing website and application.
 -----
 ## Overview ##
 
@@ -31,9 +31,9 @@ sudo apt-get update
 sudo apt-get dist-upgrade  ?? not really required ??
 sudo apt-get install ffmpeg
 </pre>
-<blockquote>'''Note:''' because of licencing restrictions, you can get better sound quality and browser compatibility by compiling FFmpeg from source. i-flicks works with the standard download.
+<blockquote>##### Note: ##### because of licencing restrictions, you can get better sound quality and browser compatibility by compiling FFmpeg from source. i-flicks works with the standard download.
 </blockquote>
-'''Windows''' The default settings and latest installs of the following packages should all work.
+##### Windows #####The default settings and latest installs of the following packages should all work.
 
 <pre>Download and install [Node.js](https://nodejs.org/)
 Download and install [Git](https://git-scm.com/downloads)
@@ -41,7 +41,7 @@ Download and install [GraphicsMagick ](http://www.graphicsmagick.org/download.ht
 Download and install [FLVMeta](http://www.flvmeta.com/)
 Download and install [FFMpeg](https://www.ffmpeg.org/download.html)
 </pre>
-'''For all operating systems''' Create a folder for your new project on your computer and move to that folder.<br />
+##### For all operating systems ##### Create a folder for your new project on your computer and move to that folder.<br />
 run:
 
 <s>npm install i-flicks</s>
