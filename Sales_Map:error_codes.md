@@ -13,7 +13,7 @@ This application uses C as the prefix for all errors. The following two digits r
 | C09         |                   |
 | C10         |                   |
 | C11         | lib/systeminfo.js |
-| C12         |                   |
+| C12         | '                  |
 
 | Code   | Description                                                                                         |
 |--------|-----------------------------------------------------------------------------------------------------|
