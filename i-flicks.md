@@ -89,7 +89,7 @@ Open a browser and navigate to http://localhost:3000
 ##### How to listen on port 80#####
 Node.js requires elevated privileges or root access to listen on port 80 or 443. It isn’t a good idea to do this and so something needs to forward requests to port 80 onto the Node.js port. IPTables or Nginx both work. IPTables is quicker to setup as it is installed on most Linux distrubutions. Nginx works on Windows and Linux and adds a bit more flexibility.
 
-##### What about HTTPS, SPDY or HTTP2 #####
+### What about HTTPS, SPDY or HTTP2 ###
 i-flicks works with other HTTP modules. None have been production tested but all work when tested as a Friday afternoon bit of fun.
 
 ## Settings ##
