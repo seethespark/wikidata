@@ -17,7 +17,7 @@ There are many elements of Sales Map you may wish to configure. The text or map 
 Setting up the Data Harvester
 -----------------------------
 
-Data can be collected via a website tag or from a backend database server. If using a database server then Sales Map needs a way to get the data from that database. The Data Harvester runs on the same network as the database and extracts, encrypts and sends data to Sales Map. [Salesmap: data harvester setting up]
+Data can be collected via a website tag or from a backend database server. If using a database server then Sales Map needs a way to get the data from that database. The Data Harvester runs on the same network as the database and extracts, encrypts and sends data to Sales Map. [[Salesmap: data harvester setting up]]
 
 Setting up the server
 ---------------------
