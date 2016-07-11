@@ -1,0 +1,1 @@
+The Sales Map software retains data for 14 months unless explicitly stated in customer contracts. This is to allow for year on year comparisons.
