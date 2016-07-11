@@ -7,7 +7,7 @@ Hampshire
 RG25 3PA
 
 Company number:
-160 8265 13
-
-Var registration number:
 8508812
+
+Vat registration number:
+160 8265 13
