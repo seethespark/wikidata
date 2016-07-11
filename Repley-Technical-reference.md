@@ -2,6 +2,7 @@ __This page is expected to be used in conjunction with the the JSDoc generated d
 
 ## Caching ##
 Reports are usually cached.  This serves two purposes, the first allows multi page reports to be paginated correctly.  The second allows miltiple runs of the same data to return quickly.
+When a report is requested the organisation ID, parameters and query are hashed to give a unique fingerprint for the report.  It is then saved into a cache table.  The cache expires after an amount of time set by the report defenition.  If an identical query is run by this or any other reportthen the cache can be used.  The expiry date is checked as is the createdAt stamp and the currently executing query's expiry to make sure this cached version is valid.  Any subsequent use of the cache requires the org ID, parameters and query to be absulutely identical, including white space.
 
 ## Report request process ##
 Reports consist of a report and report detail sections.  The report has an overall layout, a name, permissions and an validity dates.  Detail elements have queries, connections and layouts.  
