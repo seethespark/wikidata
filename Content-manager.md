@@ -1,5 +1,5 @@
 ## Adding a new page ##
-Make sure the page has <article> tags or elements with the editable class. Add content with properties named the same as the containing element's ID.  Wrap the editable property in ''triple'' braces like this: {{{content.myTextArea}}}
+Make sure the page has /<article>/ tags or elements with the editable class. Add content with properties named the same as the containing element's ID.  Wrap the editable property in ''triple'' braces like this: {{{content.myTextArea}}}
 
 Navigate to the path /<pagePath>/content
 
