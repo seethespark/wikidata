@@ -1,20 +1,24 @@
 [[Designing templates]]
 
 ## Adding a new page ##
-Make sure the page has `<article>` tags or elements with the editable class. Add content with properties named the same as the containing element's ID.  Wrap the editable property in ''triple'' braces like this: {{{content.myTextArea}}}
+Navigate to the page you want to edit and then add a suffix "content", so http://example.com/home becomes http://example.com/home/content
 
-Navigate to the path `<pagePath>`content
+Change the template at the bottom.  Always change it even if you change it back as the default isn't saved.
 
-Make a change
+Make a change in a blue outlined box.
 
 Save!
+
+Go back to the original page and check.
+
+By convention, the default site page, `/`, is accessed via the index/content so http://example.com/ becomes http://example.com/index/content 
 
 ## Editing page content ##
 You must be in the contentEditor group.
 
 You can only edit content of pages which the side developers have allowed.
 
-Either use the Admin dashboard at /admin or navigate to `<pagePath>` content.
+Either use the Admin dashboard at /admin or navigate to `http://site/pagePath/content`.
 
 Edit the text content.  Click on the `</>` button to edit the HTML directly.
 
