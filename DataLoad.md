@@ -4,3 +4,4 @@ DataLoad is a lightweight Extract, Transform and Load (ETL) tool. It is fast and
 The origin of DataLoad was frustration at using inflexible systems which required redeployment when new columns were added to a table.
 
 [[Adding connections|DataLoadAddingConnections]]
+[[Adding data items|DataLoadAddingDataItems]]
