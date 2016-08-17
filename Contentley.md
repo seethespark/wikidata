@@ -1,0 +1,13 @@
+## API ##
+/get/<page path>
+Requires headers x-application-id and x-service-key
+
+Returns the content as JSON for the specified page path.
+content is typically in the following format:
+```json
+{
+docTitle: <title>, 
+template: <template name>,
+content: {<section name>: <section content>, ...}
+}
+```
