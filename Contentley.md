@@ -11,3 +11,13 @@ template: <template name>,
 content: {<section name>: <section content>, ...}
 }
 ```
+
+GET /applicationconfiguration
+Requires headers x-application-id and x-service-key
+
+Returns the app config for "Sites" application
+
+POST /applicationconfiguration
+Requires headers x-application-id and x-service-key
+> Requires 'layout' for inserts
+Requires 'layout' or 'description' for updates
