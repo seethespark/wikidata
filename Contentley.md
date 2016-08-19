@@ -1,5 +1,5 @@
 ## API ##
-GET /<page path>
+`GET` `/<page path>`
 Requires headers x-application-id and x-service-key
 
 Returns the content as JSON for the specified page path.
