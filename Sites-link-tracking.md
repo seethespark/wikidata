@@ -1,7 +1,7 @@
 Sites has a ridimentary but effective inbound link tracking system.
 
 ### Setting up ###
-Navigate to [your Sites address]/l/edit
+Navigate to [your Sites address]/l/edit (that's l for link in the middle).
 Enter a character in the first cell, under ID.
 This will create a new row with a new ID.  
 Enter a name for your inbound link, this will help monitoring who uses it.
