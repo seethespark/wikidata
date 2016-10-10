@@ -1,4 +1,4 @@
-See The Spark Sites are free, easilty editable websites.  To create a new website go to https://seethespark.com and fill in a few basic details.
+See The Spark Sites are free, easilty editable websites.  To create a new website go to https://seethespark.com/sites and fill in a few basic details.
 
 Sites may sometimes include unintrusive advertising to help fund them.
 
