@@ -1,5 +1,5 @@
 ## API ##
-`GET` `/<page path>`
+**`GET`** `/<page path>`
 Requires headers x-application-id and x-service-key
 
 Returns the content as JSON for the specified page path.
@@ -12,7 +12,7 @@ content: {<section name>: <section content>, ...}
 }
 ```
 
-`POST` `/<page path>`
+**`POST`** `/<page path>`
 Requires headers x-application-id and x-service-key
 
 Holds content information about a single page.  Page title, images and text.
@@ -26,7 +26,7 @@ Holds content information about a single page.  Page title, images and text.
 ```
 Returns {message: 'OK'} or an error
 
-`POST` `/applicationconfiguration`
+**`POST`** `/applicationconfiguration`
 Requires headers x-application-id and x-service-key
 
 Holds the application level content information.  Things like theme or layout level content whcich is shared across many pages
@@ -40,10 +40,10 @@ Holds the application level content information.  Things like theme or layout le
 ```
 Returns {message: 'OK'} or an error
 
-`GET` `/themes/<applicationId>`
+**`GET`** `/themes/<applicationId>`
 Requires header x-service-key
 
-`POST` `/applicationcon`
+**`POST`** `/applicationcon`
 Requires headers x-application-id or applicationId as a parameter and x-service-key
 
 Get a list of themes and associated info.  Themes can be specific to an organisation or they can be universal (organisation ID is NULL).
@@ -56,7 +56,7 @@ variables: [{name: <theme specific variable name>, values[<value1>, <value2>...]
 }
 ```
 
-`DELETE` `/asset`
+**`DELETE`** `/asset`
 Requires headers x-application-id and x-service-key
 
 If an image is deleted (probably from assetley) then check each Content entry and delete the corresponding image reference.
