@@ -15,6 +15,8 @@ content: {<section name>: <section content>, ...}
 `POST` `/<page path>`
 Requires headers x-application-id and x-service-key
 
+Holds content information about a single page.  Page title, images and text.
+
 ```javascript
 [{
 	id: <element ID or "pageTitle" or "pageTemplate">,
@@ -22,9 +24,12 @@ Requires headers x-application-id and x-service-key
     image: <image name>
 }]
 ```
+Returns {message: 'OK'} or an error
 
 `POST` `/applicationconfiguration`
 Requires headers x-application-id and x-service-key
+
+Holds the application level content information.  Things like theme or layout level content whcich is shared across many pages
 
 ```javascript
 [{
@@ -33,6 +38,7 @@ Requires headers x-application-id and x-service-key
     image: <image name>
 }]
 ```
+Returns {message: 'OK'} or an error
 
 `GET` `/themes/<applicationId>`
 Requires header x-service-key
