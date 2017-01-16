@@ -12,6 +12,9 @@ content: {<section name>: <section content>, ...}
 }
 ```
 
+`POST` `/<page path>`
+Requires headers x-application-id and x-service-key
+
 `GET` `/applicationconfiguration`
 Requires headers x-application-id and x-service-key
 
