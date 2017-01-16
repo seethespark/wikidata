@@ -15,7 +15,7 @@ content: {<section name>: <section content>, ...}
 `POST` `/<page path>`
 Requires headers x-application-id and x-service-key
 
-```
+```javascript
 [{
 	id: <element ID or "pageTitle" or "pageTemplate">,
 	content: <element's content, probably text>
@@ -26,7 +26,7 @@ Requires headers x-application-id and x-service-key
 `POST` `/applicationconfiguration`
 Requires headers x-application-id and x-service-key
 
-```
+```javascript
 [{
 	id: <element ID or "siteTheme">,
 	content: <element's content, probably text>
