@@ -2,6 +2,12 @@
 **`GET`** `/<page path>`
 Requires headers x-application-id and x-service-key
 
+<page path> is expected to have a trailing /content as the update usually comes from a URL with this pattern.  The /content is removed.  
+
+The index or default page, "/", should be replaced with "/index" for clarity.
+
+Combining the two previous statements, to modify "/" the actual <page path> should be "/index/content" just as it is in the UI.
+
 Returns the content as JSON for the specified page path.
 content is typically in the following format:
 ```json
